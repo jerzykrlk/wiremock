@@ -57,4 +57,5 @@ public interface Options {
     Authenticator getAdminAuthenticator();
     boolean getHttpsRequiredForAdminApi();
     NotMatchedRenderer getNotMatchedRenderer();
+    AsynchronousResponseSettings getAsynchronousResponseSettings();
 }
